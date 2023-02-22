@@ -17,20 +17,23 @@ import LoadingButton from '@mui/lab/LoadingButton'
 function App() {
   const [selectFile, setselectFile] = useState();
   const [loading, setLoading] = React.useState(false);
- 
+  const finalTest = []
   function handleClick(event) {
     event.preventDefault()
     setLoading(true)
     const formData = new FormData()
     formData.append('file', selectFile)
-    axios.post('/hello', formData, { baseURL: 'http://209.97.163.29/' })
+    axios.post('/hello', formData, { baseURL: 'http://127.0.0.1:5000' })
       .then((res) => {
-        document.getElementById('demo1').innerHTML = res.data.message
+        
+        document.getElementById('demo1').innerHTML = res.data.message.replaceAll('\\n','<br>')
         setLoading(false)
         console.log(res.data.message)
+        
       })
   }
-
+    let dddd = 'dfdfq\\nweqwe';
+    console.log(dddd.replace('\\n','\n'))
 
 
 
@@ -80,7 +83,7 @@ function App() {
           <Typography id='demo' sx={{ marginLeft: '10px', paddingTop: '10px' }}></Typography>
           <Input type={'file'} onChange={(e) => { setselectFile(e.target.files[0]) }}></Input>
        
-        
+          
         <LoadingButton
           onClick={handleClick}
           loading={loading}
