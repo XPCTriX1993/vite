@@ -1,7 +1,7 @@
 from flask import Flask,request,jsonify
 from flask_cors import CORS
-from functions import getText
-import PyPDF2
+from googleocr import ocrgoogle
+
 
 app = Flask(__name__)
 CORS(app)
@@ -11,9 +11,8 @@ CORS(app)
 def hello():
     file = request.files['file']
     file.save(file.filename)
-    print(getText(file.filename))
         
-    return jsonify({'message':f'{getText(file.filename)}'})
+    return jsonify({'message':f'{ocrgoogle(file.filename)}'})
 
 
 

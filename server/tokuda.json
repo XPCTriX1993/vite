@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ace-computer-324205",
+  "private_key_id": "13bcb6ca026af7ed40b7091f68acb1d7733ca552",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDDuAjzGoAw0HzP\n0NyMOPBFDcl2H3fuML80nIzPEgbH0nb0RYGSjaforCZz1dGCzdhDBYi/wIqusHXu\niHK5SnjRzFdgcS6B06zdxPEKbiDt1s5usytqT75e4Di8AbyT/msCpkVChW9HAs0w\nKB/HsRnr7Mo+LTUgN81udiSqzusnMa7ggVnzWe/u8f3SlCNKzYiH84HDQ87jrgNJ\nZj7yXW5LWLJ+ssQulcN5iuMundhzs6lEeJyAu3rUdi0WKLwGtV0+IxQWW/mTZH9d\n0GIAotakarboLm+yuAYRecizb1GltdgJ3Qf8flKv+BQkuJUMH/KyGPogh0WZ7q+9\n8AWMsBb1AgMBAAECggEAAl5CtXZXoL+VEwqq8INr3NoK2wQMdnRei+ttBMBqFpbk\nW5ZPuA9Avd7/ZB1tOJD3EfCKNA/HXc/CzY0XHkjZZ2h6ki8saeO+zrwoUoD8owQb\nYVmHp/SpEArUhOncd0n3z4NliSWGMCzHgNKrd8Yb0y/9Tn1LjEVAlhqV3P899y5s\nQ4lW8jcZBwWStgdNwINw0kg0krwtGMcOAScCYKhtVK1Qt2YTLshaMI9uefG1nJzV\n/ReFQCq7lbilUe+XP7vWgymL1qeHOo8gTlEr851Bky9TcQAxuAsMSRDf88s2xsAA\nZw/Mbh0MlNcYj7K0CVfyCJ3KJa68svWNQcbPVbrszQKBgQD8YCKe6XMxDs42ejif\nMUQIgg7AOE+aNO61p4kqCdd4zGo3QpRFz3wVo0sSDLQd4WZIBsNz11SkopB+lbzD\nxuL4KVg030fPPBFQxmI1iMJeFasAQ2AixW3nsvW1EUcoIrAe3AJ8yy1jjkezZu5W\neANmEX+yu/EBaWwKdoIvLYn0LwKBgQDGh5mm2CwTGB4N2XuL6BUs0uDtyfxUqD3r\nv+HAwiuSWuOzf6gm7pWnFffQsDf+6Ad0okO8nckOOEd79AWTGbNTAMInyTMxvOZv\nA2wmZ1iAKbybGSPwhbzwKyKT5t1n1B+ABMo+Y4WnLWox/4+Td2LNqBSsm4Eo2PGg\np0lSfB6KGwKBgDu/GpMaWz3i7mixOJRfWmbVO17ANgAgxd5VYkCEgfFEG2Unquh3\n/T02IkCMp1tnkAo/J6hV8uDi52hAVKbYf8UWLJ6fuWVTKBpCTN+1l6YkZQ4z5R92\nM9WlZUvPYlQbGizEEwauJvmppknPdV8dHFjejaennJ+j8ILtmVZH5p/bAoGADe9G\noadasJxov6AcQ92uXs8OaqJay7ZjYkC9n8IBPOyUPu0e6FymtGueUU+NHp86pr0c\n9Ag/LHhWzCR8n66WH6VV+2Tr6vnPUstys99dHuHPEzPYifFZKaJdcvQpZjhFXb74\nUxi5MNrHMWs2sKsYjEbX7KWdkzhm/VfAlcGQgzECgYEA+eXblZjHoaPmzeGb3nW4\nChAx9L/jDghzUjat1vExyTBpbCsD3wCoVJ03CWkdNYM2zM2nqHIK4Jpv3aRDDUeW\n/53WZa3l1kicZWAgtE8pbiJ/fPjaVCkYWxQbsNd0vyzrcZIvu4XL8l1st1nf2N1M\nxd2ZAytgcuShscZlgZz2lAM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "xpctrix1993@ace-computer-324205.iam.gserviceaccount.com",
+  "client_id": "101079011636342276445",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/xpctrix1993%40ace-computer-324205.iam.gserviceaccount.com"
+}

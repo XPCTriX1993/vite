@@ -1,4 +1,6 @@
 import PyPDF2
+import pytesseract
+from pdf2image import convert_from_path
 
 def getText(path_file):
     aa = []
@@ -8,3 +10,12 @@ def getText(path_file):
             text = pdf_reader.pages[page_num].extract_text()
             aa.append(text)
     return aa       
+
+
+def ocrPy():
+    pages = convert_from_path('aa.pdf', 200, poppler_path=r'C:\poppler-0.68.0_x86\poppler-0.68.0\bin')
+    text = ''
+    for page in pages:
+        text += pytesseract.image_to_string(page)
+        print(text)
+ocrPy()
